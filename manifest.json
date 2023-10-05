@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Ma première extension",
+    "version": "1.0",
+    "description": "Une extension Chrome simple.",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "16": "icon/Google-Chrome.png",
+        "48": "icon/Google-Chrome.png",
+        "128": "icon/Google-Chrome.png"
+      }
+      
+    },
+    "icons": {
+        "16": "icon/Google-Chrome.png",
+        "48": "icon/Google-Chrome.png",
+        "128": "icon/Google-Chrome.png"
+      },
+    "permissions": [
+      "activeTab"
+    ]
+  }
+  
